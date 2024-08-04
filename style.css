@@ -1,0 +1,17 @@
+.faris{
+    width: 250px;
+}
+  @media (max-width: 768px) {
+    .flex-col {
+      flex-direction: column;
+    }
+    .w-full-md {
+      width: 100%;
+    }
+    .h-auto-md {
+      height: auto;
+    }
+    .p-2-md {
+      padding: 0.5rem;
+    }
+  }
