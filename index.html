@@ -349,8 +349,27 @@
     </a>
     <!-- Back to top End -->
     <script>
-      window.alert(`Selamat datang di Halia Writes tempat bagi kita yang memperjuangkan pendidikan dan kemanusian`);
+ window.onload = function() {
+     Swal.fire({
+  title: "Selamat datang di Halia Writes tempat bagi kita yang memperjuangkan pendidikan dan kemanusian",
+  showClass: {
+    popup: `
+      animate__animated
+      animate__fadeInUp
+      animate__faster
+    `
+  },
+  hideClass: {
+    popup: `
+      animate__animated
+      animate__fadeOutDown
+      animate__faster
+    `
+  }
+});
+    };
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="dist/js/script.js"></script>
   </body>
 </html>
